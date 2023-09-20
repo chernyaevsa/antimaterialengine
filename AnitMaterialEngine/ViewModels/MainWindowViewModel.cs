@@ -20,7 +20,7 @@ namespace AnitMaterialEngine.ViewModels
 				this.RaiseAndSetIfChanged(ref _imageSrc, value);
 			}
 		}
-		public string Greeting => "Welcome to Avalonia!";
+		public string Greeting => "Welcome to Zlatik!";
 
 		public void Start()
 		{
