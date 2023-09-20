@@ -17,11 +17,11 @@
 
 	<DockPanel>
 		<Grid Margin="15">
-			<Image Width="250" Source="/Assets/missle.png"/>
+			<Image Width="250" Source="{Binding ImageSrc}"/>
 		</Grid>
 		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
 			<TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-			<Button Background="Red" Foreground="White" HorizontalAlignment="Center">Start</Button>
+			<Button Background="Red" Foreground="White" HorizontalAlignment="Center" Command="{Binding Start}">Start</Button>
 		</StackPanel>
 
 	</DockPanel>
